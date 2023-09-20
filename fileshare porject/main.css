@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    font-weight: bold;
+    box-sizing: border-box;
+    background-image: url("/images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main {
+    max-width: 80%;
+    width: fit-content;
+    /**/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    padding: 20rem;
+    /**/
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(00.4rem);
+    border-radius: 1.5rem;
+}
